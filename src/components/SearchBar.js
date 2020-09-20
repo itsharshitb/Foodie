@@ -6,7 +6,10 @@ const SearchBar = () => {
     return (
     <View style = {styles.background}>
     <Feather name="search" size={30} color="black" />
-    <Text>Search Bar</Text>
+    <TextInput
+    style={styles.inputStyle} 
+    placeholder= "Seacrch"
+    />
     </View>
     );
 };
@@ -16,7 +19,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffe4c4',
         height: 50,
         borderRadius:30,
-        marginHorizontal: 15
+        marginHorizontal: 15,
+        flexDirection: 'row'
+    },
+    inputStyle: {
+        borderColor: 'black',
+        borderWidth: 1,
+        flex: 1
     }
 });
 
