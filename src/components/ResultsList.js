@@ -7,7 +7,8 @@ const ResultsList = ({ title, results }) => {
         <View style= {styles.container}>
         <Text style={styles.title}>{title}</Text>
         <FlatList   //broken into tiles : resultdetail.js, above line comming from is from searchscreen
-        horizontal={true}   
+        horizontal={true} 
+        showsHorizontalScrollIndicator={false}  
         data={results}
         keyExtractor={( result ) => result.id}
         renderItem={({item}) =>{
