@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text,View,StyleSheet, FlatList, TouchableOpacity} from 'react-native';
+import { withNavigation } from 'react-navigation';
 import ResultsDetail from './ResultsDetail';
 // ResultsList: one tile which is repeating for all foods
 const ResultsList = ({ title, results, navigation }) => {
@@ -13,7 +14,7 @@ const ResultsList = ({ title, results, navigation }) => {
         keyExtractor={( result ) => result.id}
         renderItem={({item}) =>{
             return (
-                <TouchableOpacity onPress={() => navigation.navigate('ResultsShow')}>
+                <TouchableOpacity onPress={() => navigation.navigate('ResultsShow', {id: item.id})}>
                 <ResultsDetail result={item} />
                 </TouchableOpacity>
             )
@@ -35,4 +36,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ResultsList;
+export default withNavigation(ResultsList);
