@@ -43,11 +43,11 @@ const styles = StyleSheet.create({
         height: 200,
         width: 500,
         borderRadius: 5,
-        marginBottom: 5
+        marginBottom: 10
     },
     name: {
         fontWeight:'bold',
-        marginBottom: 30,
+        marginBottom: 20,
         fontSize: 30
     },
     contact: {
