@@ -4,6 +4,11 @@ import { withNavigation } from 'react-navigation';
 import ResultsDetail from './ResultsDetail';
 // ResultsList: one tile which is repeating for all foods
 const ResultsList = ({ title, results, navigation }) => {
+
+    if(!results.length) {
+        return null;
+    }
+
     return (    //all tiles @ homescreen
         <View style= {styles.container}>
         <Text style={styles.title}>{title}</Text>
