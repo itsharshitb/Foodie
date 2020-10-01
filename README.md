@@ -25,12 +25,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
 
-
-This project aims to bring a  dinning experience, where the customers coming to the restaurant can see what food he can enjoy in restaurant. 
-<img src = "./Screen-Sorts/Screenshot_20200923-130710.png" height="400" width = "200" >
-<img src = "./Screen-Sorts/Screenshot_20200923-130736.png" height="400" width = "200" >
 
 
 ### Built With
@@ -47,6 +42,13 @@ This project aims to bring a  dinning experience, where the customers coming to 
 
 </p>
 <!-- GETTING STARTED -->
+## About The Project
+
+
+This project aims to bring a  dinning experience, where the customers coming to the restaurant can see what food he can enjoy in restaurant. 
+<img src = "./Screen-Sorts/Screenshot_20200923-130710.png" height="400" width = "200" >
+
+<img src = "./Screen-Sorts/Screenshot_20200923-130736.png" height="400" width = "200" >
 
 ## Getting Started
 To get a local copy up and for running the project locally, follow these simple steps.
