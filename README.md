@@ -29,6 +29,8 @@
 
 
 This project aims to bring a  dinning experience, where the customers coming to the restaurant can see what food he can enjoy in restaurant. 
+<img src = "./Screen-Sorts/Screenshot_20200923-130710.png" height="400" width = "200" >
+<img src = "./Screen-Sorts/Screenshot_20200923-130736.png" height="400" width = "200" >
 
 
 ### Built With
