@@ -10,9 +10,9 @@
 <br />
     <br />
     ·
-    <a href="https://github.com/Harshitbhatt69/Foodieissues">Report Bug</a>
+    <a href="https://github.com/Harshitbhatt69/Foodie/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Harshitbhatt69/Foodieissues">Request Feature</a>
+    <a href="https://github.com/Harshitbhatt69/Foodie/issues">Request Feature</a>
     ·
     <br />
 
